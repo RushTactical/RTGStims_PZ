@@ -1,0 +1,9 @@
+Tooltip_EN = {
+    --Item tooltip
+    Tooltip_RTGPropitalInjector = "An injector full of Propital"
+    Tooltip_RTGMorphineInjector = "An injector full Morphine"
+    Tooltip_RTGAdrenalineInjector = "An injector full Adrenaline"
+    Tooltip_RTGHemostaticAInjector = "An injector full of Hemostatic A"
+    Tooltip_RTGHemostaticBInjector = "An injector full of Hemostatic B"
+    Tooltip_RTGZombCure = "Could this be the cure?"
+}

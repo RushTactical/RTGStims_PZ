@@ -1,0 +1,15 @@
+module RTGStims {
+    imports {
+        Base
+    }
+
+    recipe Inject Propital {
+        PropitalInjector,
+
+        Result: PropitalInjector,
+        RemoveResultItem: true,
+        Time: 30.0,
+        OnCreate: Recipe.OnCreate.InjectPropital,
+    }
+    
+}

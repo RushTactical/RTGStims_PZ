@@ -1,0 +1,84 @@
+module RTGStims {    
+    imports  {
+        Base
+    }
+
+    item RTGPropitalInjector {
+        Weight = 0.05,
+        Type = Drainable,
+        UseDelta = 1,
+        DisplayName = Injector (Propital),
+        DisplayCategory = Stims,
+        Icon = ,
+        WorldStaticModel = RTGStimpen,
+        CustomContextMenu = Inject,
+        Tooltip = Tooltip_RTGPropitalInjector,
+        Medical = TRUE,
+    }
+
+    item RTGMorphineInjector {
+        Weight = 0.05,
+        Type = Drainable,
+        UseDelta = 1,
+        DisplayName = Injector (Morphine),
+        DisplayCategory = Stims,
+        Icon = ,
+        WorldStaticModel = RTGStimpen,
+        CustomContextMenu = Inject,
+        Tooltip = Tooltip_RTGMorphineInjector,
+        Medical = true,
+    }
+
+    item RTGAdrenalineInjector {
+        Weight = 0.05,
+        Type = Drainable,
+        UsedDelta = 1,
+        DisplayName = Injector (Adrenaline),
+        DisplayCategory = Stims,
+        Icon = ,
+        WorldStaticModel = RTGStimpen,
+        CustomContextMenu = Inject,
+        Tooltip = Tooltip_RTGAdrenalineInjector,
+        Medical = true,
+    }
+
+    item RTGHemostaticAInjector {
+        Weight = 0.05,
+        Type = Drainable,
+        UsedDelta = 1,
+        DisplayName = Injector (Hemostatic A),
+        DisplayCategory = Stims,
+        Icon = ,
+        WorldStaticModel = RTGStimpen,
+        CustomContextMenu = Inject,
+        Tooltip = Tooltip_RTGHemostaticAInjector,
+        Medical = true,
+    }
+
+    item RTGHemostaticBInjector {
+        Weight = 0.05,
+        Type = Drainable,
+        UseDelta = 1,
+        DisplayName = Injector (Hemostatic B),
+        DisplayCategory = Stims,
+        Icon = ,
+        WorldStaticModel = RTGStimpen,
+        CustomContextMenu = Inject,
+        Tooltip = Tooltip_RTGHemostaticBInjector,
+        Medical = true,
+    }
+
+    item RTGZombCure {
+        Weight = 0.05,
+        Type = Drainable,
+        UseDelta = 1,
+        DisplayName = Injector (Zombie Cure),
+        DisplayCategory = Stims,
+        Icon = ,
+        WorldStaticModel = RTGStimpen,
+        CustomContextMenu = Inject,
+        Tooltip = Tooltip_RTGZombCure,
+        Medical = true,
+    }
+}
+
