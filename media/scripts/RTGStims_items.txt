@@ -68,7 +68,7 @@ module RTGStims {
         Medical = true,
     }
 
-    item RTGZombCure {
+    item RTGZombCureInjector {
         Weight = 0.05,
         Type = Drainable,
         UseDelta = 1,
@@ -80,5 +80,6 @@ module RTGStims {
         Tooltip = Tooltip_RTGZombCure,
         Medical = true,
     }
+
 }
 

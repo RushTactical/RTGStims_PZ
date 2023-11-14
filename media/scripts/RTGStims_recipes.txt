@@ -4,12 +4,57 @@ module RTGStims {
     }
 
     recipe Inject Propital {
-        PropitalInjector,
+        RTGPropitalInjector,
 
-        Result: PropitalInjector,
+        Result: RTGPropitalInjector,
         RemoveResultItem: true,
         Time: 30.0,
         OnCreate: Recipe.OnCreate.InjectPropital,
     }
     
+    recipe Inject Morphine {
+        RTGMorphineInjectorInjector,
+
+        Result: RTGMorphineInjector,
+        RemoveResultItem: true,
+        Time: 30.0,
+        OnCreate: Recipe.OnCreate.InjectMorphine,
+    }
+
+    recipe Inject Adrenaline {
+        RTGAdrenalineInjector,
+
+        Result: RTGAdrenalineInjector,
+        RemoveResultItem: true,
+        Time: 30.0,
+        OnCreate: Recipe.OnCreate.InjectAdrenaline,
+    }
+
+    recipe Inject Hemostatic A {
+        RTGHemostaticAInjector,
+
+        Result: RTGHemostaticAInjector,
+        RemoveResultItem: true,
+        Time: 30.0,
+        OnCreate: Recipe.OnCreate.InjectHemostaticA,
+    }
+
+    recipe Inject Hemostatic B {
+        RTGHemostaticBInjector,
+
+        Result: RTGHemostaticBInjector,
+        RemoveResultItem: true,
+        Time: 30.0,
+        OnCreate: Recipe.OnCreate.InjectHemostaticB,
+    }
+
+    recipe Inject ZombCure {
+        RTGZombCureInjector,
+
+        Result: RTGZombCureInjector,
+        RemoveResultItem: true,
+        Time: 30.0,
+        OnCreate: Recipe.OnCreate.InjectZombCure,
+    }
+
 }

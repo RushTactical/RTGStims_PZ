@@ -1,0 +1,15 @@
+module KIDrugMod
+{
+imports
+    {
+        Base
+    }
+
+model RTGStimpen 
+    {
+        mesh = WorldItems/RTGStimpen,
+        texture = WorldItems/RTGStimpen_texture,
+        scale = 0.1,
+    }
+
+}
